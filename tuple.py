@@ -3,6 +3,6 @@
 
 guests = ['James', 'Mary', 'John', 'Patricia', 'Robert', 'Jennifer']
 
-guests.sort()
+guests.sort(reverse=True)
 
 print(guests)
