@@ -15,7 +15,14 @@ colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 # The following example uses the step to return a sublist that includes every 2nd element of the colors list:
 
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-sub_colors = colors[::2]
+# colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+# sub_colors = colors[::2]
 
-print(sub_colors)
+# print(sub_colors)
+
+# It will strictly reverse the whole list
+# the slice includes the list of elements starting from the last element to the first element. In other words, it reverses the list.
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+reversed_colors = colors[::-1]
+
+print(reversed_colors)
