@@ -8,5 +8,7 @@ digits.insert(5,100)
 
 # Remove any value from the list
 digits.remove(40)
+# Delete any value from the list based on the index position
+digits.pop(6)
 
 print(digits)
