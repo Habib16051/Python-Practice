@@ -5,4 +5,7 @@ digits[0] = 50
 # adding any position
 digits.insert(5,100)
 
+# Remove any value from the list
+digits.remove(40)
+
 print(digits)
