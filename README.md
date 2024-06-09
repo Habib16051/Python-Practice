@@ -10,3 +10,5 @@ Everything we need to know about python
  - reduce () => Python offers a function called reduce() that allows you to reduce a list in a more concise way.
 
  - List Comprehensions : [output_expression for element in list], [output_expression for element in list if condition]
+
+ - dictionary {} : A Python dictionary is a collection of key-value pairs where each key is associated with a value.
