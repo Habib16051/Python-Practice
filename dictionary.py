@@ -19,3 +19,26 @@ print(person)
 
 del person['active']
 print(person)
+
+# Using for loop
+
+stocks = {
+    'AAPL': 121,
+    'AMZN': 3380,
+    'MSFT': 219,
+    'BIIB': 280,
+    'QDEL': 266,
+    'LVGO': 144
+}
+
+new_stocks = {}
+
+for key, value in stocks.items():
+    new_stocks[key] = value*2
+
+print(new_stocks)
+
+# using Python dictionary comprehension
+
+new_stocks_2 = {key:value * 3 for (key, value) in stocks.items()}
+print(new_stocks_2)
