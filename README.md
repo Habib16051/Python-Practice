@@ -6,3 +6,5 @@ Everything we need to know about python
  - Tuple : A tuple is a list that cannot change. Python refers to a value that cannot change as immutable. So by definition, a tuple is an immutable list.
 
  - Python Sorted => The sort() method sorts a list in place. In other words, it changes the order of elements in the original list.To return the new sorted list from the original list we have to use Sorted() function. That means Sorted() doesn't change the original list but reuturn a new sorted list. In term of Sort() it changes the original list and sort them in place.
+
+ - reduce () => Python offers a function called reduce() that allows you to reduce a list in a more concise way.
