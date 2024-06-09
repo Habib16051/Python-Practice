@@ -17,3 +17,5 @@ person['gender'] = 'male'
 #  now the new dicitonary will be like that
 print(person)
 
+del person['active']
+print(person)
