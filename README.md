@@ -22,3 +22,6 @@ Everything we need to know about python
 }
 
 - Set() : A Python set is an unordered list of immutable elements.
+      - Elements in a set are unordered.
+      - Elements in a set are unique. A set doesn’t allow duplicate elements.
+      - Elements in a set cannot be changed. 
