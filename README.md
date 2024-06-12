@@ -21,4 +21,4 @@ Everything we need to know about python
     'active': True
 }
 
-- Set() :
+- Set() : A Python set is an unordered list of immutable elements.
