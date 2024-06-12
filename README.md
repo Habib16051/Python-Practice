@@ -24,4 +24,6 @@ Everything we need to know about python
 - Set() : A Python set is an unordered list of immutable elements.
       - Elements in a set are unordered.
       - Elements in a set are unique. A set doesn’t allow duplicate elements.
-      - Elements in a set cannot be changed. 
+      - Elements in a set cannot be changed.
+
+- Frozen a set : To make a set immutable, you use the built-in function called frozenset(). The frozenset() returns a new immutable set from an existing one.
