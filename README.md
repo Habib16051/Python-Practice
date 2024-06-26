@@ -28,3 +28,8 @@ Everything we need to know about python
 
 - Frozen a set : To make a set immutable, you use the built-in function called frozenset(). The frozenset() returns a new immutable set from an existing one.
 
+  # Python String Method:
+  - join()
+  - concat
+  - split()
+
