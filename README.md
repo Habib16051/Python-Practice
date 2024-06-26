@@ -32,4 +32,13 @@ Everything we need to know about python
   - join()
   - concat
   - split()
+  - startswith()
+  - endswith()
+  - lower()
+  - upper()
+  - title()
+  - capitalize()
+  - islower()
+  - isupper()
+  - replace() 
 
