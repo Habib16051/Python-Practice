@@ -3,6 +3,10 @@
 # The objects are instances of a class.
 
 class Person:
+
+#def __init__(self, name, age):: This is the initializer method (constructor) for the Person class. 
+# It is automatically called when an instance (object) of the class is created.
+
     def __init__(self, name, age):
         self.name = name #instance of a person class
         self.age = age #another instance of a person class
