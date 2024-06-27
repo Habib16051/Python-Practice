@@ -4,11 +4,11 @@
 
 class Person:
     def __init__(self, name, age):
-        self.name = name #instances of a person class
-        self.age = age #another instances of a person class
+        self.name = name #instance of a person class
+        self.age = age #another instance of a person class
 
 result = Person('John',28) # Create a new Person object
-result2 = Person('Mst Mobasshirin Mitu', 25) # Create a new Person object
+result2 = Person('New Zealand', 25) # Create a new Person object
 
 print(result.name, result.age)
 print(result2.name, result2.age)
