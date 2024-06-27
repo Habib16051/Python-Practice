@@ -20,3 +20,19 @@ result2 = Person('Ekjon Mayaboti', 25) # Create a new Person object
 print(result.name, result.age)
 print(result2.name, result2.age)
 print(result2.greet())
+
+
+# Single inheritence
+#A class can reuse another class by inheriting it. When a child class inherits from a parent class,
+# the child class can access the attributes and methods of the parent class.
+
+class Employee(Person):
+    def __init__(self, name, age, job_title):
+        super().__init__(name, age)
+        self.job_title = job_title
+
+    def greet(self):
+        return f"Hi, it's {self.name} and I'm a {self.job_title}"
+    
+employee = Employee('Md Habibur Rahman', 28, 'Jr Software Engineer')
+print(employee.greet())
