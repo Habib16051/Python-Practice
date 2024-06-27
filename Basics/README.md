@@ -42,5 +42,5 @@ Everything we need to know about python
   - isupper()
   - replace() 
 
+# END of Python Basics
 
-# Python OOP
