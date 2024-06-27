@@ -11,8 +11,12 @@ class Person:
         self.name = name #instance of a person class
         self.age = age #another instance of a person class
 
+    def greet(self):
+        return f"Hi, it's {self.name}"
+
 result = Person('John',28) # Create a new Person object
-result2 = Person('New Zealand', 25) # Create a new Person object
+result2 = Person('Ekjon Mayaboti', 25) # Create a new Person object
 
 print(result.name, result.age)
 print(result2.name, result2.age)
+print(result2.greet())
