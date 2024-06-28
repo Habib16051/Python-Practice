@@ -34,5 +34,7 @@ class Employee(Person):
     def greet(self):
         return f"Hi, it's {self.name} and I'm a {self.job_title}"
     
-employee = Employee('Md Habibur Rahman', 28, 'Jr Software Engineer')
-print(employee.greet())
+employee_1 = Employee('Md Habibur Rahman', 28, 'Jr Software Engineer')
+employee_2 = Employee('Ekjon Mayaboti', 25, 'HouseWife')
+print(employee_1.greet())
+print(employee_2.greet())
