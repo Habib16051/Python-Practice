@@ -8,3 +8,4 @@ I will share all the necessary topics with description:
 
 # Python Method
 - a method is a function that is bound to an instance of a class.
+- Python __init__() method : When you create a new object of a class, Python automatically calls the __init__() method to initialize the object’s attributes.The double underscores at both sides of the __init__() method indicate that Python will use the method internally
