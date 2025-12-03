@@ -6,8 +6,8 @@
 
 # count_down(3)
 
-# In recursion function, where function is calls itself untill it stops.
-# a recursive function needs to have a condition to stop calling itself.
+# In recursion function, where function is calls itself until it stops.
+# A recursive function needs to have a condition to stop calling itself.
 
 def sum(n):
     if n > 0:

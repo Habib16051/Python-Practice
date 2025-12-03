@@ -12,9 +12,9 @@ print(person['favorite_colors'][1])\
 
 # using the get() method
 print(person.get('age'))
-# adding new dicitonary in the dict ==> dict [key] = value
+# adding a new dictionary in the dict ==> dict [key] = value
 person['gender'] = 'male'
-#  now the new dicitonary will be like that
+#  now the new dictionary will be like that
 print(person)
 
 del person['active']
@@ -39,6 +39,5 @@ for key, value in stocks.items():
 print(new_stocks)
 
 # using Python dictionary comprehension
-
 new_stocks_2 = {key:value * 3 for (key, value) in stocks.items()}
 print(new_stocks_2)

@@ -4,26 +4,27 @@
 
 class Person:
 
-#def __init__(self, name, age):: This is the initializer method (constructor) for the Person class. 
-# It is automatically called when an instance (object) of the class is created.
+    # Def __init__(self, name, age):: This is the initializer method (constructor) for the Person class.
+    # It is automatically called when an instance (object) of the class is created.
 
     def __init__(self, name, age):
-        self.name = name #instance of a person class
-        self.age = age #another instance of a person class
+        self.name = name  # instance of a person class
+        self.age = age  # another instance of a person class
 
     def greet(self):
         return f"Hi, it's {self.name}"
 
-result = Person('John',28) # Create a new Person object
-result2 = Person('Ekjon Mayaboti', 25) # Create a new Person object
+
+result = Person('John', 28)  # Create a new Person object
+result2 = Person('Ekjon Mayaboti', 25)  # Create a new Person object
 
 print(result.name, result.age)
 print(result2.name, result2.age)
 print(result2.greet())
 
 
-# Single inheritence
-#A class can reuse another class by inheriting it. When a child class inherits from a parent class,
+# Single inheritance
+# A class can reuse another class by inheriting it. When a child class inherits from a parent class,
 # the child class can access the attributes and methods of the parent class.
 
 class Employee(Person):
@@ -33,7 +34,8 @@ class Employee(Person):
 
     def greet(self):
         return f"Hi, it's {self.name} and I'm a {self.job_title}"
-    
+
+
 employee_1 = Employee('Md Habibur Rahman', 28, 'Jr Software Engineer')
 employee_2 = Employee('Ekjon Mayaboti', 25, 'HouseWife')
 print(employee_1.greet())

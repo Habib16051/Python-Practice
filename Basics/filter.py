@@ -12,7 +12,6 @@ for i in numbers:
 print(filtered)
 
 #  Now we will do the exact same thing using filter() methods
-
 result = filter(lambda x: x > 5, numbers)
 print(list(result))
 

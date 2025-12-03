@@ -8,7 +8,7 @@ for i in range(101):
 
 print(sum)
 
-# for mathematic logic implementation
+# for mathematics logic implementation
 # n = 100
 
 # sum = n * (n + 1)/ 2
